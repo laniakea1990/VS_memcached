@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\assoc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\daemon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\items.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\jenkins_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\memcached.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\murmur3_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\sasl_defs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\sizes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\slabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\solaris_priv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\testapp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\timedrun.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\assoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\items.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\jenkins_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\memcached.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\murmur3_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\protocol_binary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\sasl_defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\slabs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\trace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\configure.ac">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\Makefile.am">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\memcached_dtrace.d">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\config.guess">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\config.h.in">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\Makefile.in">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\config.sub">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\aclocal.m4">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\version.m4">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\README.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\memcached.spec">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\AUTHORS">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\ChangeLog">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\compile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\configure">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\COPYING">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\depcomp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\install-sh">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\missing">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\workspace\memcached-1.4.22\memcached-1.4.22\NEWS">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

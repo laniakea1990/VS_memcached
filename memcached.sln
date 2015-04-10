@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memcached", "memcached\memcached.vcxproj", "{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memcached_1.4.13", "memcached\memcached.vcxproj", "{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memcached_1.4.22", "memcached_1.4.22\memcached_1.4.22.vcxproj", "{7F3B65A5-CC2F-4543-A469-29AA6BFD423D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memcached_1.2.8", "memcached_1.2.8\memcached_1.2.8.vcxproj", "{03AE78AB-A494-4080-85FC-F888FCD179DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}.Debug|Win32.Build.0 = Debug|Win32
 		{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}.Release|Win32.ActiveCfg = Release|Win32
 		{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}.Release|Win32.Build.0 = Release|Win32
+		{7F3B65A5-CC2F-4543-A469-29AA6BFD423D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F3B65A5-CC2F-4543-A469-29AA6BFD423D}.Debug|Win32.Build.0 = Debug|Win32
+		{7F3B65A5-CC2F-4543-A469-29AA6BFD423D}.Release|Win32.ActiveCfg = Release|Win32
+		{7F3B65A5-CC2F-4543-A469-29AA6BFD423D}.Release|Win32.Build.0 = Release|Win32
+		{03AE78AB-A494-4080-85FC-F888FCD179DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03AE78AB-A494-4080-85FC-F888FCD179DC}.Debug|Win32.Build.0 = Debug|Win32
+		{03AE78AB-A494-4080-85FC-F888FCD179DC}.Release|Win32.ActiveCfg = Release|Win32
+		{03AE78AB-A494-4080-85FC-F888FCD179DC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
