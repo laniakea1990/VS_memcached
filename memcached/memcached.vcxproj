@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA7C7557-2CC4-4AFB-91A3-DF05F100F063}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>memcached</RootNamespace>
+    <ProjectName>memcached_1.4.13</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\aclocal.m4" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\AUTHORS" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\ChangeLog" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\compile" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\config.guess" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\config.h.in" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\config.sub" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\configure" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\configure.ac" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\COPYING" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\depcomp" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\install-sh" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\Makefile.am" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\Makefile.in" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\memcached.spec" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\memcached_dtrace.d" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\missing" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\NEWS" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\README" />
+    <None Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\version.m4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\assoc.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\cache.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\daemon.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\hash.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\items.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\memcached.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\sasl_defs.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\sizes.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\slabs.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\solaris_priv.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\stats.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\testapp.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\thread.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\timedrun.c" />
+    <ClCompile Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\assoc.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\cache.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\hash.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\items.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\memcached.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\protocol_binary.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\sasl_defs.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\slabs.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\stats.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\trace.h" />
+    <ClInclude Include="..\..\..\..\workspace\memcached-1.4.13\memcached-1.4.13\util.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
